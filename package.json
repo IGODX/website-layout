@@ -1,11 +1,9 @@
-{  "homepage": "https://igodx.github.io/website-layout",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build": "npm start"
-},
+{
+  "homepage": "https://igodx.github.io/website-layout",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
   "dependencies": {
     "gh-pages": "^6.1.1"
   }
-  
 }
