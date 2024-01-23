@@ -497,6 +497,12 @@ display: block;
 }
 
 @media(max-width: 1300px){
+.lr-holder{
+flex-direction: column;
+}
+.lr-holder .left{
+margin-bottom: 15px;
+}
     .menu-items{
         display: block;
     }
